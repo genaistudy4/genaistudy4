@@ -286,7 +286,7 @@ def closing_page():
     if st.session_state.submission_consent:
         st.write("Thank you for participating in this study.")
         st.write("Please click the link below to return to Prolific and complete your participation.")
-        st.markdown("[https://app.prolific.com/submissions/complete?cc=C19IRYAV](https://app.prolific.com/submissions/complete?cc=C19IRYAV)")
+        st.markdown("[https://app.prolific.com/submissions/complete?cc=CG95URA9](https://app.prolific.com/submissions/complete?cc=CG95URA9)")
         # st.stop()
     else:
         st.write("Thank you for participating in this study. Your responses will not be submitted.")
